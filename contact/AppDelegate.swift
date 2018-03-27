@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  contact
-//
-//  Created by YOUGG on 2/26/18.
-//  Copyright © 2018 YOUGG. All rights reserved.
-//
 
 import UIKit
 import CoreData

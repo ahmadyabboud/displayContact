@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA26AD7C206AC9280014E122 /* contactCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26AD7B206AC9280014E122 /* contactCollectionView.swift */; };
+		EA26AD7E206AC9790014E122 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26AD7D206AC9790014E122 /* ContactCell.swift */; };
+		EA26AD80206ACCF70014E122 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26AD7F206ACCF70014E122 /* extensions.swift */; };
 		EAC5F2BA2044277200353531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5F2B92044277200353531 /* AppDelegate.swift */; };
 		EAC5F2BC2044277200353531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5F2BB2044277200353531 /* ViewController.swift */; };
 		EAC5F2BF2044277200353531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC5F2BD2044277200353531 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA26AD7B206AC9280014E122 /* contactCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactCollectionView.swift; sourceTree = "<group>"; };
+		EA26AD7D206AC9790014E122 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		EA26AD7F206ACCF70014E122 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		EAC5F2B62044277200353531 /* contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC5F2B92044277200353531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC5F2BB2044277200353531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				EAC5F2C52044277200353531 /* LaunchScreen.storyboard */,
 				EAC5F2C82044277200353531 /* Info.plist */,
 				EAC5F2C02044277200353531 /* contact.xcdatamodeld */,
+				EA26AD7B206AC9280014E122 /* contactCollectionView.swift */,
+				EA26AD7D206AC9790014E122 /* ContactCell.swift */,
+				EA26AD7F206ACCF70014E122 /* extensions.swift */,
 			);
 			path = contact;
 			sourceTree = "<group>";
@@ -139,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA26AD7E206AC9790014E122 /* ContactCell.swift in Sources */,
 				EAC5F2BC2044277200353531 /* ViewController.swift in Sources */,
+				EA26AD7C206AC9280014E122 /* contactCollectionView.swift in Sources */,
 				EAC5F2C22044277200353531 /* contact.xcdatamodeld in Sources */,
 				EAC5F2BA2044277200353531 /* AppDelegate.swift in Sources */,
+				EA26AD80206ACCF70014E122 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +293,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF69TSV658;
 				INFOPLIST_FILE = contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahyab.contact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,11 +309,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF69TSV658;
 				INFOPLIST_FILE = contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahyab.contact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
